@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Envirohension - Home</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      /* Custom styles for Our Process section */
+      #our-process {
+        background-color: #f4f4f4;
+        padding: 50px 0;
+      }
+
+      .process-card {
+        background-color: #ffffff;
+        border-radius: 8px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .process-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .process-card img {
+        max-width: 80px;
+        margin-bottom: 20px;
+      }
+
+      .process-card h3 {
+        font-family: "Arial", sans-serif;
+        font-size: 24px;
+        color: #333333;
+      }
+
+      .process-card p {
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        color: #666666;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Envirohension</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Process.html">Our Process</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="work.html">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="motivation.html">Our Motivation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="our-process">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="process-card">
+              <img src="discover-icon.png" alt="Discover Icon" />
+              <h3>Discover</h3>
+              <p>Learn about environmental issues and potential solutions.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="process-card">
+              <img src="engage-icon.png" alt="Engage Icon" />
+              <h3>Engage</h3>
+              <p>
+                Get involved in initiatives and projects to make a difference.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="process-card">
+              <img src="empower-icon.png" alt="Empower Icon" />
+              <h3>Empower</h3>
+              <p>
+                Empower others and inspire change towards a sustainable future.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
